@@ -42,7 +42,10 @@ represent the tiles.
 
 ## A1.1
 
-«replace this with your answer»
+S -> r S g S b
+r -> "r"
+g -> "g"
+b -> "b"
 
 
 ## Q1.2  (1 point for the O() answer, 2 for the sentence)
@@ -82,7 +85,13 @@ Write the BNF (not EBNF) description for this language.
 
 ## A2.1
 
-«replace this with your answer»
+<sentence> ::= "The" adj n v adv
+<adj> ::= "" | X adjective
+<adjective> ::= "lazy" | "smelly"
+<n> ::= "dog" | "cat"
+<v> ::= "ate" | "ran"
+<adv> ::= "" | adverb
+<adverb> ::= "slowly" | "noisily"
 
 
 ## Q2.2 (5 points)
@@ -91,8 +100,9 @@ Write this grammar using EBNF with common extensions
 
 ## A2.2
 
-«replace this with your answer»
-
+<sentence> ::= "The" {"lazy" | "smelly"} n v ["slowly" | "noisily"]
+<n> ::= "dog" | "cat"
+<v> ::= "ate" | "ran"
 
 ## Q2.3 (6 points)
 
@@ -125,8 +135,23 @@ Current state | Next word | Next state
 
 ## A2.4
 
-«replace this with your answer»
-
+Current state | Next word | Next state
+--------------|-----------|-----------
+    S0        |    the    |     S1
+    S1        |    lazy   |     S2
+    S1        |   smelly  |     S2
+    S2        |    lazy   |     S2
+    S2        |   smelly  |     S2
+    S1        |    cat    |     S3
+    S1        |    dog    |     S3
+    S2        |    cat    |     S3
+    S2        |    dog    |     S3
+    S3        |    ate    |     S4
+    S3        |    ran    |     S4
+    S4        |   slowly  |     S5
+    S4        |   noisily |     S5
+    S4        |    EOI    |     END
+    S5        |    EOI    |     END
 
 ## Q2.5 (12 points)
 
