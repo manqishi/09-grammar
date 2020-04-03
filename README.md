@@ -42,11 +42,10 @@ represent the tiles.
 
 ## A1.1
 
-S -> r S g S b
-r -> "r"
-g -> "g"
-b -> "b"
-
+S -> r S r
+S -> g S g
+S -> b S b
+S -> r | b | g
 
 ## Q1.2  (1 point for the O() answer, 2 for the sentence)
 
@@ -56,7 +55,7 @@ In one sentence, explain why.
 
 ## A1.2
 
-«replace this with your answer»
+The likely memory requirement is O(n) because for every tile, there is 1 comparison action.
 
 
 # Q2
