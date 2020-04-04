@@ -178,7 +178,7 @@ How many valid sentences are there in this language?
 
 ## A2.6
 
-«replace this with your answer»
+There are 60 valid sentences.
 
 
 ## Q2.7 (1 point for the level, 2 for the sentence)
@@ -188,4 +188,4 @@ explain why.
 
 ## A2.7
 
-«replace this with your answer»
+The simplest Chomsky grammar level for this language is level 2 because it requires a list of terminals and non-terminals but context doesn't change its meaning.
