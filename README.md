@@ -178,7 +178,7 @@ How many valid sentences are there in this language?
 
 ## A2.6
 
-There are 60 valid sentences.
+There are technically an infinite amount of valid sentences since "lazy" and "smelly" can go on indefinitely. However, if we were to limit to unique adjectives, then there are 60 valid sentences .
 
 
 ## Q2.7 (1 point for the level, 2 for the sentence)
