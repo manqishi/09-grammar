@@ -169,7 +169,7 @@ code, include a script or makefile that will do the job.
 
 ## A2.5
 
-«replace this with your answer»
+A2.5 folder contains the main.cpp file with implementation and test cases. Catch file contains the test functionalities. 
 
 
 ## Q2.6 (3 points)
