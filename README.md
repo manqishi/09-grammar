@@ -188,4 +188,4 @@ explain why.
 
 ## A2.7
 
-The simplest Chomsky grammar level for this language is level 2 because it requires more than just a terminal and a non-terminal but context doesn't change its meaning.
+The simplest Chomsky grammar level for this language is level 3 because it consists of states, not productions, and doesn't require immediate storage. 
