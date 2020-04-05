@@ -139,10 +139,10 @@ Current state | Next word | Next state
     S0        |    the    |     S1
     S1        |    lazy   |     S2
     S1        |   smelly  |     S2
-    S2        |    lazy   |     S2
-    S2        |   smelly  |     S2
     S1        |    cat    |     S3
     S1        |    dog    |     S3
+    S2        |    lazy   |     S2
+    S2        |   smelly  |     S2
     S2        |    cat    |     S3
     S2        |    dog    |     S3
     S3        |    ate    |     S4
