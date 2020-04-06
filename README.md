@@ -84,12 +84,12 @@ Write the BNF (not EBNF) description for this language.
 
 ## A2.1
 
-<sentence> ::= "The" adj n v adv
-<adj> ::= "" | X adjective
+<sentence> ::= "the" <adj> <n> <v> <adv>
+<adj> ::= "" | <adj> <adjective>
 <adjective> ::= "lazy" | "smelly"
 <n> ::= "dog" | "cat"
 <v> ::= "ate" | "ran"
-<adv> ::= "" | adverb
+<adv> ::= "" | <adverb>
 <adverb> ::= "slowly" | "noisily"
 
 
